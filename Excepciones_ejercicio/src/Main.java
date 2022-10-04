@@ -9,7 +9,7 @@ public class Main {
         try{
             System.out.println(a/b);
         }catch(ArithmeticException e) {
-            e.printStackTrace();
+            System.err.println("No se puede dividir entre 0");
         }
 
         b=4;
