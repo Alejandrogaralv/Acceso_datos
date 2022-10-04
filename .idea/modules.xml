@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccesoDatos.iml" filepath="$PROJECT_DIR$/AccesoDatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excepciones_ejercicio/Excepciones_ejercicio.iml" filepath="$PROJECT_DIR$/Excepciones_ejercicio/Excepciones_ejercicio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prueba/Prueba.iml" filepath="$PROJECT_DIR$/Prueba/Prueba.iml" />
     </modules>
   </component>
