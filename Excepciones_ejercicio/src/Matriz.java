@@ -19,12 +19,7 @@ public class Matriz {
                 }catch (Exception e){
                     e.printStackTrace();
                 }
-
             }
-
         }
-
-
     }
-    
 }
