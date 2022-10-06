@@ -16,7 +16,9 @@ public class Matriz {
                     String digito = valorOperacion.substring(1);
                     System.out.println(valorOperacionNumero);
                     System.out.println("El segundo dígito del resultado de la operación es: " + digito);
-                }catch (Exception e){
+                } catch (ArrayIndexOutOfBoundsException e){
+                    e.printStackTrace();
+                } catch (Exception e){
                     e.printStackTrace();
                 }
             }
