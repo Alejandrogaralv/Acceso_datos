@@ -34,8 +34,6 @@ public class Main {
             }
         }
         fout.close();
-
-
     }
     public static void LeerBinario(File file) throws IOException {
         FileInputStream fin = new FileInputStream(file);
