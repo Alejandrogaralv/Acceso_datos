@@ -19,7 +19,7 @@ public class Main {
             throw new RuntimeException(e);
         }
         try {
-            LeerBinario(bin, 101);
+            LeerBinario(bin);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -37,7 +37,7 @@ public class Main {
 
 
     }
-    public static void LeerBinario(File file, int max) throws IOException {
+    public static void LeerBinario(File file) throws IOException {
         FileInputStream fin = new FileInputStream(file);
         int i;
         while((i=fin.read())!=-1){
