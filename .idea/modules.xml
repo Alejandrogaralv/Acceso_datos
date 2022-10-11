@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccesoDatos.iml" filepath="$PROJECT_DIR$/AccesoDatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Excepciones_ejercicio/Excepciones_ejercicio.iml" filepath="$PROJECT_DIR$/Excepciones_ejercicio/Excepciones_ejercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlujosDatos/FlujosDatos.iml" filepath="$PROJECT_DIR$/FlujosDatos/FlujosDatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lanzar_excepciones/Lanzar_excepciones.iml" filepath="$PROJECT_DIR$/Lanzar_excepciones/Lanzar_excepciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prueba/Prueba.iml" filepath="$PROJECT_DIR$/Prueba/Prueba.iml" />
     </modules>
