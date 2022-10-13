@@ -55,7 +55,6 @@ public class Main {
         double total = 0;
         for (byte b : array) {
             total = total + b;
-
         }
         double media = total/array.length;
         System.out.println(media);
