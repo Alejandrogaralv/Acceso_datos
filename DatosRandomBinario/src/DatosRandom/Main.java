@@ -53,8 +53,8 @@ public class Main {
         FileInputStream fin = new FileInputStream(file);
         byte[] array = fin.readAllBytes();
         double total = 0;
-        for (int j = 0; j < array.length; j++) {
-            total = total+array[j];
+        for (byte b : array) {
+            total = total + b;
 
         }
         double media = total/array.length;
