@@ -19,7 +19,7 @@ public class Main {
             throw new RuntimeException(e);
         }
         try {
-            LeerBinario(bin);
+           LeerBinario(bin);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -54,7 +54,7 @@ public class Main {
         byte[] array = fin.readAllBytes();
         double total = 0;
         for (int j = 0; j < array.length; j++) {
-            total = total+j;
+            total = total+array[j];
 
         }
         double media = total/array.length;
