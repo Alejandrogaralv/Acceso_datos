@@ -48,7 +48,7 @@ public class Main {
 
             }
         }catch(EOFException eo){
-            System.err.println("");
+            System.err.println(" ");
         }
         fin.close();
         din.close();
