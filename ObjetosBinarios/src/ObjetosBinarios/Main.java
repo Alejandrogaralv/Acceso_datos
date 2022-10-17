@@ -16,8 +16,6 @@ public class Main {
             }
         }
         Persona p1 = new Persona("Alejandro", 21);
-        Persona p2 = new Persona("Fabio", 19);
-        Persona p3 = new Persona("Marco", 21);
         HashMap<String, Integer> personas = new HashMap<>();
         personas.put("Alejandro", 21);
         personas.put("Fabio", 19);
@@ -75,7 +73,6 @@ public class Main {
     public static void leerBinarioArray(File f) throws IOException, ClassNotFoundException {
         FileInputStream fin = new FileInputStream(f);
         ObjectInputStream oin = new ObjectInputStream(fin);
-            Persona p;
         try {
             while (true) {
                 System.out.println(oin.readObject().toString());
