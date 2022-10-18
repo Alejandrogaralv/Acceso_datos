@@ -9,11 +9,8 @@ public class Main {
         File f = new File("./archivos/miFichero.txt");
         FileReader fr = new FileReader(f);
         BufferedReader bufferedReader = new BufferedReader(fr);
-
         leer(fr);
-
         leerBufferReader(bufferedReader);
-
         fr.close();
         bufferedReader.close();
     }
@@ -28,7 +25,5 @@ public class Main {
         while((linea = br.readLine())!=null){
             System.out.println(linea);
         }
-
     }
-
 }
