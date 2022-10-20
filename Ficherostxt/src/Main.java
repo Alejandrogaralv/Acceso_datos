@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 
 public class Main {
@@ -9,6 +6,7 @@ public class Main {
         File f = new File("./archivos/miFichero.txt");
         FileReader fr = new FileReader(f);
         BufferedReader bufferedReader = new BufferedReader(fr);
+        escribirDatos(f, "Palabra");
         leer(fr);
         leerBufferReader(bufferedReader);
         fr.close();
@@ -25,5 +23,10 @@ public class Main {
         while((linea = br.readLine())!=null){
             System.out.println(linea);
         }
+    }
+    public static void  escribirDatos(File f, String palabra) throws IOException {
+        FileWriter fw = new FileWriter(f, true);
+        fw.write(palabra + "\n");
+        fw.close();
     }
 }
