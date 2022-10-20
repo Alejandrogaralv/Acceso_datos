@@ -1,9 +1,7 @@
-PalabraPalabraPalabra
 Palabra
 Palabra
 Palabra
 Palabra
+Buffer
 Palabra
-Palabra
-Palabra
-Palabra
+Buffer

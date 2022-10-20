@@ -7,6 +7,7 @@ public class Main {
         FileReader fr = new FileReader(f);
         BufferedReader bufferedReader = new BufferedReader(fr);
         escribirDatos(f, "Palabra");
+        escribirConBuffer(f, "Buffer");
         leer(fr);
         leerBufferReader(bufferedReader);
         fr.close();
@@ -27,6 +28,15 @@ public class Main {
     public static void  escribirDatos(File f, String palabra) throws IOException {
         FileWriter fw = new FileWriter(f, true);
         fw.write(palabra + "\n");
+        fw.close();
+    }
+    public static void escribirConBuffer(File f, String texto) throws IOException {
+        FileWriter fw = new FileWriter(f, true);
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(texto);
+        bw.newLine();
+
+        bw.close();
         fw.close();
     }
 }
